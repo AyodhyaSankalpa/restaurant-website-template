@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurent</title>
+
+    <link type="image/png" sizes="32x32" rel="icon" href="images/fav.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+   
+
+
+
+<section class="order">
+    <div class="order-img-details">
+        <img src="images/6.png" alt="Restaurant Image" class="img-responsive">
+        <div class="details">
+            <h3>Fide Rice</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+            <span>$ 4.5</span>
+        </div>
+    </div>
+    <div class="order-form">
+        <h2>Order Name</h2>
+        <form action="submit-form.php" method="post">
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="number" id="persons" name="persons" placeholder="Quantity" required>
+            <textarea style="height: 109px; width: 100%; border: 1px solid #ccc; margin-bottom: 10px; padding: 10px;" name="message"  placeholder="Delivery Address"></textarea>
+            <label style="margin-bottom: 10px;">Total Price:</label><label style="margin-left: 5px;">$ 40</label>
+            <button style="margin-top: 10px;" type="submit" class="submit-button">Confirm Order</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+
+
+
+<footer class="footer-section">
+    <div class="footer-container">
+        <!-- Contact Section -->
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p><i class='bx bxs-map'></i>123 Main Street, New York, NY 10001</p>
+            <p><i class='bx bx-phone'></i> (123) 456-7890</p>
+            <p><i class='bx bx-envelope'></i> info@restaurant.com</p>
+        </div>
+        
+        <!-- About Us Section -->
+        <div class="about-us">
+            <h3>About Us</h3>
+            <p>A small description about the restaurant.</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+        </div>
+
+        <!-- Opening Hours Section -->
+        <div class="opening-hours">
+            <h3>Opening Hours</h3>
+            <p>Monday - Friday: 9:00 AM - 10:00 PM</p>
+            <p>Saturday: 10:00 AM - 11:00 PM</p>
+            <p>Sunday: 11:00 AM - 9:00 PM</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        © <span id="current-year"></span> All Rights Reserved By WowFood<br>
+        Distributed By <a href="https://github.com/AyodhyaSankalpa" target="_blank">Ayodhya Sankalpa</a>
+    </div>
+</footer>
+
+
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
